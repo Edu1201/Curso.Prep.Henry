@@ -200,15 +200,15 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí
 
-  /*
+  
   var multi = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-  for (var i = 0; i <= multi.length; i++){
-    multi(i * 6);
+  for (var i = 0; i < multi.length; i++){
+    multi[i] = multi[i] * 6;
   }
 
   return multi;
-  */
+  
 }
 
 function tieneTresDigitos(numero){
