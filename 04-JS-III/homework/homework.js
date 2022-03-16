@@ -217,6 +217,7 @@ function mesesDelAño(array) {
   // Tu código:
 
   var nuevoIntentoMil = []
+  var duplicado = nuevoIntentoMil.sort()
 
   for (var i = 0; i < array.length; i++){
     if (array[i] === 'Marzo' || array[i] === 'Enero' || array[i] === 'Noviembre'){
@@ -230,6 +231,19 @@ function mesesDelAño(array) {
     return 'No se encontraron los meses pedidos'
   }
 
+  /* correccion para que no pase meses repetidos, pero no pasa el test
+    y no se como mas hacerlo.....
+    
+  for (var i = 0; i < nuevoIntentoMil.length; i++){
+    if (duplicado[i] == duplicado[i + 1]){
+      'No se encontraron los meses pedidos'
+    }
+  }
+
+  if (nuevoIntentoMil.length === 3){
+    return nuevoIntentoMil;
+  }  
+  */ 
 }
 
 
