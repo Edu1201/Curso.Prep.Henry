@@ -62,6 +62,8 @@ function filter(array) {
   //Tu código:
   const filtrar = array.filter(function(elementos){
     return elementos.startsWith('a');
+    //tambien se puede escribir: 
+    //return elementos[0] === 'a'
   })
 
   return filtrar;
