@@ -1,3 +1,7 @@
+body {    
+    background-image: url(https://img.freepik.com/foto-gratis/pasta-bolonesa-ingredientes-sobre-mesa-madera_181624-43407.jpg?w=2000)
+}
+
 h1 {
     color: rgb(116, 235, 116);
 }
@@ -6,15 +10,32 @@ img {
     width: 400px;
 }
 
+.divClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #thirdDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 500px;
     width: 600px;
     background-color: rgb(116, 235, 116);
     padding: 50px;
     border: 6px solid black;
+    margin-left: 30%;
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+
+#urls {
+    font-size: 18px;
+    margin: 30px;
+    color: rgb(80, 167, 167);
 }
