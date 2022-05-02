@@ -10,6 +10,8 @@
 	* Declaraciones `if`
 	* Valores booleanos (`true`, `false`)
 
+	## taller de conceptos[click on here](conceptos.md)
+
 
 2. Instalar Node y NPM. NPM se incluye con Node. https://nodejs.org/en/download/
 
