@@ -54,5 +54,13 @@
 
     * .shift - Funciona igual que .pop pero este hara su trabajo eliminando al inicio de la lista.
 
+        var superVillanos = ["Tanos", "loki", "Elguason", "Octopus"] // asi quedo la ultima vez que agregamos a "Tanos" al inicio de la lista.
+    
+        superVillanos.shift(); // asi podremos eliminar a "Tanos" de lista 
+
+    con .shift podras eliminar el primer elemento de tu lista y no habra retorno de lo que ya eliminaste 
+
+        var superVillanos = ["loki", "Elguason", "Octopus"];
+
 
 
